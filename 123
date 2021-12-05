@@ -2,7 +2,7 @@
  def  __init__ ( self , surname = None , name = None , отчество = None , address = None , CreditCardNumber = None , BankAccountNumber = None ):
      я . __Customer  = { "Имя" : имя ,
       "Фамилия" : фамилия ,
-      "очестро" : отчество ,
+      "отчество" : отчество ,
       «Адресс» : адрес , г.
       «Номер Кредитки» : CreditCardNumber ,
       "Номер Банковского Счёта" :   BankAccountNumber }
