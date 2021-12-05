@@ -1,0 +1,23 @@
+класс  Заказчик :
+ def  __init__ ( self , surname = None , name = None , отчество = None , address = None , CreditCardNumber = None , BankAccountNumber = None ):
+     я . __Customer  = { "Имя" : имя ,
+      "Фамилия" : фамилия ,
+      "очестро" : отчество ,
+      «Адресс» : адрес , г.
+      «Номер Кредитки» : CreditCardNumber ,
+      "Номер Банковского Счёта" :   BankAccountNumber }
+
+ def  info ( self ):
+     для  элемента  в ( сам . __Клиент ):
+         печать ( элемент )
+
+someCustomer  =  Клиент (
+    name = input ( "Имя:" ),
+    surname = input ( "Фамилия:" ),
+    отчество = input ( "Очество:" ),
+    адрес = вход ( "Адресс:" ),
+    CreditCardNumber = input ( "Номер кредитки:" ),
+    BankAccountNumber = input ( "Номер банковского счёта:" )
+)
+
+someCustomer . информация ()
